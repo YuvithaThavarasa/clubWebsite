@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>University of Kelaniya Computer Club</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <img src="images/logo" alt="Club Logo" width="120" height="120">
+    </div>
+    <div class="club-name">
+        <h1>Digital Dynamos - Computer Club</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <br><br><br>
+    <div class="container">
+        <div class="swiper">
+     
+        <div class="swiper-wrapper">
+        
+            <div class="swiper-slide"><img src= "images/s1.jpg" alt="photo of club activities" width="150" height="700"> </div>
+            <div class="swiper-slide"><img src= "images/s2.jpg" alt="photo of club activities"width="150" height="700"></div>
+            <div class="swiper-slide"><img src= "images/s4.jpg"alt="photo of club activities"width="150" height="700"></div>
+        
+      </div>
+    
+      <div class="swiper-pagination"></div>
+    
+      
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+    
+    </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      
+      <script>
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        },
+      loop: true,
+    
+     
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    
+    
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+    
+    });
+      </script>
+
+    <div class="welcome-container">
+      <h2 class="animated-text">Are you passionate about technology? Eager to explore the ever-evolving world of computers and digital 
+        innovation? Look no further – you've found your home at the University of Kelaniya Computer Club!Ready to dive in? Explore our website, 
+        check out our upcoming events, and join us on this incredible tech journey!</h2>
+  </div>
+
+    <div class="tile-container">
+        <div class="tile">
+         
+          <h2>Our Mission...</h2>
+          <br>
+          <p> At the University of Kelaniya Computer Club, our mission is to empower and inspire students to excel in the ever-evolving
+             field of technology. We are committed to fostering a vibrant and inclusive community where members can learn, collaborate, 
+             and innovate. Through hands-on experiences, knowledge sharing, and creative exploration, we aim to equip our members with 
+             the skills and mindset to become leaders and problem solvers in the digital age. Our mission is to cultivate a passion for 
+             technology, promote lifelong learning, and make a positive impact on our campus and beyond. </p>
+          
+          </div>
+    
+          <div class="tile">
+            
+            <h2>Our Vision...</h2>
+            <br>
+            <p> Our vision is to be the premier hub of technological innovation and excellence within the University of Kelaniya. We 
+              aspire to create a dynamic and forward-thinking community that drives positive change through technology. We envision a 
+              future where our members are recognized as leaders, innovators, and contributors to the advancement of society. We strive
+               to be at the forefront of emerging technologies, fostering an environment where ideas flourish, boundaries are pushed, 
+               and solutions are born. Our vision is to leave a lasting legacy of technological empowerment and knowledge sharing that
+                extends far beyond our university campus, inspiring a new generation of tech enthusiasts and innovators</p>
+            
+            
+            </div>
+    </div>
+
+<br>
+<br>
+
+
+<footer>
+  <div class="footer-container">
+      <div class="copyright">
+          &copy; 2023 Computer Club - University of Kelaniya. All rights reserved
+  </div>
+</footer>
+</body>
+</html>
